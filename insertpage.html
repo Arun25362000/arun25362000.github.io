@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-color:orange;
+				color:orange;
+			}
+			.d{
+				color:black;
+				font-size:30px;
+				height:50px;
+				width:300px;
+				align:center;
+				padding-left:400px;
+				padding-top:60px;
+			}
+			#e{
+				font-family:san-serif;
+				font-size:30px;
+				border-radius:5px;
+				height:45px;
+				width:700px;
+				align:center;
+				padding-left:20px;
+			}
+			#f{
+			height:50px;
+			width:150px;
+			border-radius:10px;
+			border:0;
+			color:orange;
+			background-color:black;
+			font-size:30px;
+			}
+		</style>
+	</head>
+	<body>
+		<form class='d' action="/insertbackend" method="post">
+			<strong>Enter Movie ID:</strong><input id='e' type="text"  size="25px" name="movid"> <br><br>
+			<strong>Enter Movie Name:</strong><input id='e' type="text" name="movname"> <br><br>
+			<strong>Enter Director Name:</strong><input id='e' type="text" name="dirname"> <br><br>
+			<strong>Enter Duration:</strong><input id='e' type="text" name="movdur"> <br><br>
+			<strong>Enter Ratings:</strong><input id='e' type="text" name="movrat"> <br><br>
+			<input id='f'type="submit" value="Insert">
+		</form>
+	</body>
+</html>
