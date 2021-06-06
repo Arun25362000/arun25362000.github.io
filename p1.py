@@ -3,7 +3,7 @@ import cx_Oracle
 app=Flask(__name__)
 @app.route('/loginpage',methods=['GET','POST'])
 def loginpage():
-	return render_template("loginpage.html")
+	return render_template("index.html")
 @app.route('/loginsuccess',methods=['GET','POST'])
 def loginsuccess():
 	return render_template("loginsuccess.html")
